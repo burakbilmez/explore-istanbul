@@ -1,30 +1,20 @@
 {
   "pages": {
     "/page": [
-      "static/chunks/webpack-df899fcd3a9e3852.js",
-      "static/chunks/bce60fc1-92aef296259a984f.js",
-      "static/chunks/698-26872da3b4993311.js",
-      "static/chunks/main-app-0221bd39274bc2bd.js",
-      "static/chunks/22-4cc33bea2edd69be.js",
-      "static/chunks/172-d063ba0dfc80d429.js",
-      "static/chunks/app/page-c86cf3212ee63589.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
     ],
     "/layout": [
-      "static/chunks/webpack-df899fcd3a9e3852.js",
-      "static/chunks/bce60fc1-92aef296259a984f.js",
-      "static/chunks/698-26872da3b4993311.js",
-      "static/chunks/main-app-0221bd39274bc2bd.js",
-      "static/css/185055cc6d02ce28.css",
-      "static/chunks/app/layout-79834f0be0aca345.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
     "/istanbul/page": [
-      "static/chunks/webpack-df899fcd3a9e3852.js",
-      "static/chunks/bce60fc1-92aef296259a984f.js",
-      "static/chunks/698-26872da3b4993311.js",
-      "static/chunks/main-app-0221bd39274bc2bd.js",
-      "static/chunks/22-4cc33bea2edd69be.js",
-      "static/chunks/394-024a72b9e3e6abbc.js",
-      "static/chunks/app/istanbul/page-5ce023e7ae1b7838.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/istanbul/page.js"
     ]
   }
 }

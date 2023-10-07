@@ -47,7 +47,7 @@ const Cards = () => {
                                     initial={{ opacity: 0, x: 100, scale: 0.8 }}
                                     transition={{ delay: 0, type: "spring", stiffness: 100 }}
                                     className="p-4 -mb-12">    
-                                    <Image className="rounded-3xl" width={550} height={500} src="/galata-tower.webp" alt="Galata Tower" />
+                                    <Image priority={true} className="rounded-3xl" width={550} height={500} src="/galata-tower.webp" alt="Galata Tower" />
                               </motion.div>
 
                               <motion.div
@@ -55,7 +55,7 @@ const Cards = () => {
                                     initial={{ opacity: 0, x: 100, scale: 0.8 }}
                                     transition={{ delay: 0, type: "spring", stiffness: 100 }}
                                     className="p-12">
-                                    <Image className="rounded-3xl" width={550} height={500} src="/galata-tower-2.webp" alt="Galata Tower" />
+                                    <Image priority={true} className="rounded-3xl" width={550} height={500} src="/galata-tower-2.webp" alt="Galata Tower" />
                               </motion.div>
                         </div>
                   </div>
@@ -97,14 +97,14 @@ const Cards = () => {
                                     initial={{ opacity: 0, x: 100, scale: 0.8 }}
                                     transition={{ delay: 0, type: "spring", stiffness: 100 }}
                                     className="mb-6">    
-                                    <Image className="rounded-3xl " width={550} height={500} src="/topkapi-palace-2.webp" alt="Topkapi Palace" />
+                                    <Image priority={true} className="rounded-3xl " width={550} height={500} src="/topkapi-palace-2.webp" alt="Topkapi Palace" />
                               </motion.div>
 
                               <motion.div
                                     whileInView={{ opacity: 1, x: 0, scale: 1 }}
                                     initial={{ opacity: 0, x: 100, scale: 0.8 }}
                                     transition={{ delay: 0, type: "spring", stiffness: 100 }}>
-                                    <Image className="rounded-3xl " width={550} height={500} src="/topkapi-palace.webp" alt="Topkapi Palace" />
+                                    <Image priority={true} className="rounded-3xl " width={550} height={500} src="/topkapi-palace.webp" alt="Topkapi Palace" />
                               </motion.div>
                         </div>
                   </div>
@@ -162,7 +162,7 @@ const Cards = () => {
                                     initial={{ opacity: 0, x: 100, scale: 0.8 }}
                                     transition={{ delay: 0, type: "spring", stiffness: 100 }}
                                     className="-mb-12 p-4">    
-                                    <Image className="rounded-3xl " width={550} height={500} src="/hagia-sophia.webp" alt="Hagia Sophia " />
+                                    <Image priority={true} className="rounded-3xl " width={550} height={500} src="/hagia-sophia.webp" alt="Hagia Sophia " />
                               </motion.div>
 
                               <motion.div
@@ -170,7 +170,7 @@ const Cards = () => {
                                     initial={{ opacity: 0, x: 100, scale: 0.8 }}
                                     transition={{ delay: 0, type: "spring", stiffness: 100 }}
                                     className="p-12">
-                                    <Image className="rounded-3xl " width={550} height={500} src="/hagia-sophia-2.webp" alt="Hagia Sophia" />
+                                    <Image priority={true} className="rounded-3xl " width={550} height={500} src="/hagia-sophia-2.webp" alt="Hagia Sophia" />
                               </motion.div>
                         </div>
                   </div>
@@ -216,7 +216,7 @@ const Cards = () => {
                                     initial={{ opacity: 0, x: 100, scale: 0.8 }}
                                     transition={{ delay: 0, type: "spring", stiffness: 100 }}
                                     className="-mb-12 p-4">    
-                                    <Image className="rounded-3xl " width={550} height={500} src="/basilica-2.webp" alt="Basilica Cistern" />
+                                    <Image priority={true} className="rounded-3xl " width={550} height={500} src="/basilica-2.webp" alt="Basilica Cistern" />
                               </motion.div>
 
                               <motion.div
@@ -224,7 +224,7 @@ const Cards = () => {
                                     initial={{ opacity: 0, x: 100, scale: 0.8 }}
                                     transition={{ delay: 0, type: "spring", stiffness: 100 }}
                                     className="p-12">
-                                    <Image className="rounded-3xl " width={550} height={500} src="/basilica.webp" alt="Basilica Cistern" />
+                                    <Image priority={true} className="rounded-3xl " width={550} height={500} src="/basilica.webp" alt="Basilica Cistern" />
                               </motion.div>
                         </div>
                   </div>
@@ -274,7 +274,7 @@ const Cards = () => {
                                     initial={{ opacity: 0, x: 100, scale: 0.8 }}
                                     transition={{ delay: 0, type: "spring", stiffness: 100 }}
                                     className="-mb-8">    
-                                    <Image className="rounded-3xl " width={550} height={500} src="/blue-mosque-2.webp" alt="Blue Mosque" />
+                                    <Image priority={true} className="rounded-3xl " width={550} height={500} src="/blue-mosque-2.webp" alt="Blue Mosque" />
                               </motion.div>
 
                               <motion.div
@@ -282,7 +282,7 @@ const Cards = () => {
                                     initial={{ opacity: 0, x: 100, scale: 0.8 }}
                                     transition={{ delay: 0, type: "spring", stiffness: 100 }}
                                     className="mt-12">
-                                    <Image className="rounded-3xl " width={550} height={500} src="/blue-mosque.webp" alt="Blue Mosque" />
+                                    <Image priority={true} className="rounded-3xl " width={550} height={500} src="/blue-mosque.webp" alt="Blue Mosque" />
                               </motion.div>
                         </div>
                   </div>
@@ -329,7 +329,7 @@ const Cards = () => {
                                     initial={{ opacity: 0, x: 100, scale: 0.8 }}
                                     transition={{ delay: 0, type: "spring", stiffness: 100 }}
                                     className="-mb-12 p-4">    
-                                    <Image className="rounded-3xl " width={550} height={500} src="/grand-bazaar.webp" alt="Grand Bazaar" />
+                                    <Image priority={true} className="rounded-3xl " width={550} height={500} src="/grand-bazaar.webp" alt="Grand Bazaar" />
                               </motion.div>
 
                               <motion.div
@@ -337,7 +337,7 @@ const Cards = () => {
                                     initial={{ opacity: 0, x: 100, scale: 0.8 }}
                                     transition={{ delay: 0, type: "spring", stiffness: 100 }}
                                     className="p-12">
-                                    <Image className="rounded-3xl " width={550} height={500} src="/grand-bazaar-2.webp" alt="Grand Bazaar" />
+                                    <Image priority={true} className="rounded-3xl " width={550} height={500} src="/grand-bazaar-2.webp" alt="Grand Bazaar" />
                               </motion.div>
                         </div>
                   </div>
@@ -384,7 +384,7 @@ const Cards = () => {
                                     initial={{ opacity: 0, x: 100, scale: 0.8 }}
                                     transition={{ delay: 0, type: "spring", stiffness: 100 }}
                                     className="-mb-12 p-4">    
-                                    <Image className="rounded-3xl " width={550} height={500} src="/dolmabahce.webp" alt="Dolmabahce Palace" />
+                                    <Image priority={true} className="rounded-3xl " width={550} height={500} src="/dolmabahce.webp" alt="Dolmabahce Palace" />
                               </motion.div>
 
                               <motion.div
@@ -392,7 +392,7 @@ const Cards = () => {
                                     initial={{ opacity: 0, x: 100, scale: 0.8 }}
                                     transition={{ delay: 0, type: "spring", stiffness: 100 }}
                                     className="mt-12">
-                                    <Image className="rounded-3xl " width={550} height={500} src="/dolmabahce-2.webp" alt="Dolmabahce Palace" />
+                                    <Image priority={true} className="rounded-3xl " width={550} height={500} src="/dolmabahce-2.webp" alt="Dolmabahce Palace" />
                               </motion.div>
                         </div>
                   </div>
@@ -440,7 +440,7 @@ const Cards = () => {
                                     initial={{ opacity: 0, x: 100, scale: 0.8 }}
                                     transition={{ delay: 0, type: "spring", stiffness: 100 }}
                                     className="-mb-12 p-4">    
-                                    <Image className="rounded-3xl " width={550} height={500} src="/taksim-2.webp" alt="Taksim Square" />
+                                    <Image priority={true} className="rounded-3xl " width={550} height={500} src="/taksim-2.webp" alt="Taksim Square" />
                               </motion.div>
 
                               <motion.div
@@ -448,7 +448,7 @@ const Cards = () => {
                                     initial={{ opacity: 0, x: 100, scale: 0.8 }}
                                     transition={{ delay: 0, type: "spring", stiffness: 100 }}
                                     className="p-12">
-                                    <Image className="rounded-3xl " width={550} height={500} src="/taksim.webp" alt="Taksim Square" />
+                                    <Image priority={true} className="rounded-3xl " width={550} height={500} src="/taksim.webp" alt="Taksim Square" />
                               </motion.div>
                         </div>
                   </div>
@@ -495,7 +495,7 @@ const Cards = () => {
                                     initial={{ opacity: 0, x: 100, scale: 0.8 }}
                                     transition={{ delay: 0, type: "spring", stiffness: 100 }}
                                     className="-mb-8">    
-                                    <Image className="rounded-3xl " width={550} height={500} src="/modern-art.webp" alt="Museum of Modern Art" />
+                                    <Image priority={true} className="rounded-3xl " width={550} height={500} src="/modern-art.webp" alt="Museum of Modern Art" />
                               </motion.div>
 
                               <motion.div
@@ -503,7 +503,7 @@ const Cards = () => {
                                     initial={{ opacity: 0, x: 100, scale: 0.8 }}
                                     transition={{ delay: 0, type: "spring", stiffness: 100 }}
                                     className="mt-12">
-                                    <Image className="rounded-3xl " width={550} height={500} src="/modern-art-2.webp" alt="Museum of Modern Art" />
+                                    <Image priority={true} className="rounded-3xl " width={550} height={500} src="/modern-art-2.webp" alt="Museum of Modern Art" />
                               </motion.div>
                         </div>
                   </div>
@@ -557,7 +557,7 @@ const Cards = () => {
                                     initial={{ opacity: 0, x: 100, scale: 0.8 }}
                                     transition={{ delay: 0, type: "spring", stiffness: 100 }}
                                     className="-mb-8">    
-                                    <Image className="rounded-3xl " width={550} height={500} src="/suleymaniye-mosque.webp" alt="Suleymaniye Mosque" />
+                                    <Image priority={true} className="rounded-3xl " width={550} height={500} src="/suleymaniye-mosque.webp" alt="Suleymaniye Mosque" />
                               </motion.div>
 
                               <motion.div
@@ -565,7 +565,7 @@ const Cards = () => {
                                     initial={{ opacity: 0, x: 100, scale: 0.8 }}
                                     transition={{ delay: 0, type: "spring", stiffness: 100 }}
                                     className="mt-12">
-                                    <Image className="rounded-3xl " width={550} height={500} src="/suleymaniye-mosque-2.webp" alt="Suleymaniye Mosque" />
+                                    <Image priority={true} className="rounded-3xl " width={550} height={500} src="/suleymaniye-mosque-2.webp" alt="Suleymaniye Mosque" />
                               </motion.div>
                         </div>
                   </div>
